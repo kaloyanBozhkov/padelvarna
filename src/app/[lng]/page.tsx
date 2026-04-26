@@ -1,11 +1,23 @@
-import { getI18Server } from "@/lib/i18n/server";
+import { Navbar } from "@/app/_components/organisms/Navbar";
+import { Hero } from "@/app/_components/organisms/Hero";
+import { LeaderboardPreview } from "@/app/_components/organisms/LeaderboardPreview";
+import { Features } from "@/app/_components/organisms/Features";
+import { CtaSection } from "@/app/_components/organisms/CtaSection";
+import { Footer } from "@/app/_components/organisms/Footer";
+import { LanguageSelector } from "@/app/_components/organisms/LanguageSelector";
 
-export default async function Home() {
-  const { t } = await getI18Server();
-
+export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold">{t("app.title")}</h1>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <LeaderboardPreview />
+        <Features />
+        <CtaSection />
+      </main>
+      <Footer />
+      <LanguageSelector />
+    </>
   );
 }

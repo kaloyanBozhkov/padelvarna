@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #AAFF00;
+  --color-primary-dark: #88CC00;
+  --color-bg: #0A0A0A;
+  --color-bg-card: #151515;
+  --color-bg-card-hover: #1a1a1a;
+  --color-border: #222;
+  --color-text-muted: #888;
+  --color-surface: #111;
+  --font-heading: "Anton", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}

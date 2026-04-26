@@ -4,6 +4,103 @@
   },
   "seo": {
     "title": "Padel Varna",
-    "description": "Padel courts in Varna"
+    "description": "Competitive padel community in Varna"
+  },
+  "nav": {
+    "leaderboard": "Leaderboard",
+    "teams": "Teams",
+    "tournaments": "Tournaments",
+    "about": "About",
+    "joinNow": "Join Now"
+  },
+  "hero": {
+    "tag": "MORE THAN PADEL",
+    "headline": "COMPETE. CLIMB. CONQUER.",
+    "subtitle": "Join Varna's most competitive padel community. Track your ranking, build your team, and dominate the court.",
+    "ctaLeaderboard": "View Leaderboard",
+    "ctaTeam": "Register Your Team",
+    "statPlayers": "Active Players",
+    "statTeams": "Teams",
+    "statMatches": "Matches Played"
+  },
+  "leaderboardPreview": {
+    "title": "TOP PLAYERS",
+    "columns": {
+      "rank": "#",
+      "player": "PLAYER",
+      "team": "TEAM",
+      "wl": "W-L",
+      "pts": "PTS"
+    },
+    "viewFull": "View Full Leaderboard"
+  },
+  "features": {
+    "title": "WHY PADEL VARNA?",
+    "card1Title": "Live Rankings",
+    "card1Desc": "Real-time ELO-based rankings that update after every match. Always know where you stand.",
+    "card2Title": "Team Battles",
+    "card2Desc": "Form a team, challenge rivals, and climb the team leaderboard together.",
+    "card3Title": "Tournament Mode",
+    "card3Desc": "Regular tournaments with brackets, seeding, and prizes. Prove you're the best."
+  },
+  "cta": {
+    "heading": "READY TO COMPETE?",
+    "subtitle": "Join the community, form your team, and start climbing the leaderboard today.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "brand": "PADEL VARNA",
+    "brandDesc": "Varna's premier competitive padel community. Track rankings, join teams, and compete in tournaments.",
+    "quickLinks": "Quick Links",
+    "community": "Community",
+    "contact": "Contact",
+    "discord": "Discord",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "email": "hello@padelvarna.com",
+    "location": "Varna, Bulgaria",
+    "copyright": "2026 Padel Varna. All rights reserved."
+  },
+  "leaderboard": {
+    "title": "LEADERBOARD",
+    "season": "Season 2026 Rankings — Updated Live",
+    "tabPlayers": "Players",
+    "tabTeams": "Teams",
+    "columns": {
+      "rank": "#",
+      "player": "PLAYER",
+      "team": "TEAM",
+      "matches": "MATCHES",
+      "wl": "W-L",
+      "winPct": "WIN%",
+      "points": "POINTS"
+    }
+  },
+  "team": {
+    "founded": "Founded",
+    "location": "Location",
+    "roster": "TEAM ROSTER",
+    "players": "players",
+    "recentMatches": "RECENT MATCHES",
+    "viewAll": "View All",
+    "achievements": "ACHIEVEMENTS",
+    "statsRank": "RANK",
+    "statsMatches": "MATCHES",
+    "statsWinRate": "WIN RATE",
+    "statsPoints": "POINTS",
+    "statsSeason": "SEASON",
+    "win": "WIN",
+    "loss": "LOSS",
+    "vs": "vs",
+    "captain": "Captain",
+    "player": "Player"
+  },
+  "comingSoon": {
+    "title": "COMING SOON",
+    "subtitle": "We're working hard to bring this to you. Stay tuned!"
+  },
+  "langSelector": {
+    "label": "Language"
   }
 }
