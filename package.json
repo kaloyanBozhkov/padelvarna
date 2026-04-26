@@ -1,0 +1,40 @@
+{
+  "name": "padelvarna",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@koko420/ai-tools": "^1.0.23",
+    "@koko420/shared": "^1.0.3",
+    "@t3-oss/env-nextjs": "^0.13.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "i18next": "^26.0.8",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-resources-to-backend": "^1.2.1",
+    "lucide-react": "^1.11.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-i18next": "^17.0.4",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint-plugin-i18next": "^6.1.4",
+    "postcss": "^8.5.11",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
