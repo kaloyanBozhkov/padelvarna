@@ -6,7 +6,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const lng = (await headers()).get("x-locale") || "bg";
+  const lng = (await headers()).get("x-locale") || "en";
 
   return (
     <html lang={lng}>
