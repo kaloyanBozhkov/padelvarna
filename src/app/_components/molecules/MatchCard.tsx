@@ -7,9 +7,11 @@ type MatchCardProps = {
   score: string;
   result: "win" | "loss";
   vsLabel: string;
+  winLabel?: string;
+  lossLabel?: string;
 };
 
-export function MatchCard({ date, team1, team2, score, result, vsLabel }: MatchCardProps) {
+export function MatchCard({ date, team1, team2, score, result, vsLabel, winLabel = "WIN", lossLabel = "LOSS" }: MatchCardProps) {
   return (
     <div className="bg-bg-card border border-border rounded-lg p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
@@ -22,7 +24,7 @@ export function MatchCard({ date, team1, team2, score, result, vsLabel }: MatchC
       </div>
       <div className="flex items-center gap-3">
         <span className="font-bold text-white">{score}</span>
-        <Badge variant={result}>{result === "win" ? "WIN" : "LOSS"}</Badge>
+        <Badge variant={result}>{result === "win" ? winLabel : lossLabel}</Badge>
       </div>
     </div>
   );

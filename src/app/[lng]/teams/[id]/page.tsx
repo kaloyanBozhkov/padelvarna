@@ -114,6 +114,8 @@ export default async function TeamPage() {
                   score={match.score}
                   result={match.result}
                   vsLabel={t("team.vs")}
+                  winLabel={t("team.win")}
+                  lossLabel={t("team.loss")}
                 />
               ))}
             </div>
